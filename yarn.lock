@@ -2025,14 +2025,7 @@ require-directory@^2.1.1:
   resolved "https://registry.yarnpkg.com/require-directory/-/require-directory-2.1.1.tgz#8c64ad5fd30dab1c976e2344ffe7f792a6a6df42"
   integrity sha1-jGStX9MNqxyXbiNE/+f3kqam30I=
 
-resolve@^1.10.0:
-  version "1.17.0"
-  resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.17.0.tgz#b25941b54968231cc2d1bb76a79cb7f2c0bf8444"
-  integrity sha512-ic+7JYiV8Vi2yzQGFWOkiZD5Z9z7O2Zhm9XMaTxdJExKasieFCr+yXZ/WmXsckHiKl12ar0y6XiXDx3m4RHn1w==
-  dependencies:
-    path-parse "^1.0.6"
-
-resolve@^1.19.0:
+resolve@^1.10.0, resolve@^1.19.0:
   version "1.19.0"
   resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.19.0.tgz#1af5bf630409734a067cae29318aac7fa29a267c"
   integrity sha512-rArEXAgsBG4UgRGcynxWIWKFvh/XZCcS8UJdHhwy91zwAvCZIbcs+vAbflgBnNjYMs/i/i+/Ux6IZhML1yPvxg==
@@ -2522,10 +2515,10 @@ vite-svg-loader@^1.4.2:
   dependencies:
     "@vue/compiler-sfc" "^3.0.5"
 
-vite@^2.0.0-beta.59:
-  version "2.0.0-beta.59"
-  resolved "https://registry.yarnpkg.com/vite/-/vite-2.0.0-beta.59.tgz#e01a795aebedc0cb44d653c33b72ab7b831057ae"
-  integrity sha512-tlxEPFpVI1wV+vk+t/ypwBZfNmxKcorok8YF82MrQIqCDeRXnHvp33oWPIsRrO0V7UdnnlkKQOJJiIi3AIUFOA==
+vite@^2.0.0-beta.61:
+  version "2.0.0-beta.61"
+  resolved "https://registry.yarnpkg.com/vite/-/vite-2.0.0-beta.61.tgz#da605152999cf8943672202ab6b38b68f4c7b9e4"
+  integrity sha512-NyRZ7vCwtfw/z18HmFr5ZIesum26Dg9x4ykuit1YmYsZlPxx/oF3il1U6MqkXZD2wy8HaR5fQi9d9B/6vEJMbw==
   dependencies:
     esbuild "^0.8.34"
     postcss "^8.2.1"
