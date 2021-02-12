@@ -68,6 +68,7 @@
     "files": [
       "src/background.js",
       "src/constants.js",
+      "src/preload.js",
       "src/helpers",
       "dist",
       "package.json"

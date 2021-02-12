@@ -1,7 +1,7 @@
 const path = require('path');
 const { BrowserWindow } = require('electron');
 
-const { enableDevTools, appDir } = require('../constants');
+const { enableDevTools, appDir, isProd } = require('../constants');
 
 /**
  * Create new BrowserWindow object
@@ -18,7 +18,9 @@ function createWindow(options = {}, channelsNames = []) {
       contextIsolation: true,
       nodeIntegration: false,
       enableRemoteModule: false,
-      preload: path.join(appDir, 'preload.js'),
+      preload: isProd
+        ? path.join(appDir, 'src', 'preload.js')
+        : path.join(appDir, 'preload.js'),
       additionalArguments: [
         JSON.stringify({ supportedChannels: channelsNames }),
       ],
