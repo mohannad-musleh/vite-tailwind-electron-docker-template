@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "electron-context-menu": "^2.4.0",
-    "lodash-es": "^4.17.20",
+    "lodash-es": "^4.17.21",
     "vue": "^3.0.1"
   },
   "devDependencies": {
