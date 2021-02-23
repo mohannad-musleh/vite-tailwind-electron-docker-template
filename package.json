@@ -21,7 +21,7 @@
     "postinstall": "electron-builder install-app-deps"
   },
   "dependencies": {
-    "electron-context-menu": "^2.4.0",
+    "electron-context-menu": "^2.5.0",
     "lodash-es": "^4.17.21",
     "vue": "^3.0.1"
   },
