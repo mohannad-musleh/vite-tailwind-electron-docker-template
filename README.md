@@ -182,6 +182,12 @@ in Vue logic
 window.electron.wrapperFunction();
 ```
 
+# Similar Projects
+
+[electron-vue-next](https://github.com/ci010/electron-vue-next)
+
+[electron-vite-tailwind-starter](https://github.com/appinteractive/electron-vite-tailwind-starter)
+
 # LICENSE
 
 MIT
