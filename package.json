@@ -37,7 +37,7 @@
     "postcss": "^8.2.8",
     "tailwindcss": "^2.0.4",
     "vite": "^2.0.0-beta.59",
-    "vite-svg-loader": "^1.4.2"
+    "vite-svg-loader": "^1.5.1"
   },
   "keywords": [
     "docker",
