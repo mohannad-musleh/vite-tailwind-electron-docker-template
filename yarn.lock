@@ -2503,10 +2503,10 @@ validate-npm-package-license@^3.0.1:
     spdx-correct "^3.0.0"
     spdx-expression-parse "^3.0.0"
 
-vite-svg-loader@^1.4.2:
-  version "1.4.2"
-  resolved "https://registry.yarnpkg.com/vite-svg-loader/-/vite-svg-loader-1.4.2.tgz#54e66edbc439a729224617fc00442639502c0d29"
-  integrity sha512-YHgKBITwHAO3NfCiLKutM7EkbiEF4QfcxApmZKCQbHVYTQVIRNUKRSpcwqk3CJQtykZrGc0OL4QfpQRqH/mU7A==
+vite-svg-loader@^1.5.1:
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/vite-svg-loader/-/vite-svg-loader-1.5.1.tgz#90f8fc079ff6651d7be11e07714fbe2dbab9f346"
+  integrity sha512-ps06bbNYm5oaxr8FIW2xI36jjqpqoj/q7SYZoKAnxs1BXeBTQU+MA4Xvpg6WhHbupyDRDL/MCWnRCqWaIhyqGA==
   dependencies:
     "@vue/compiler-sfc" "^3.0.5"
 
